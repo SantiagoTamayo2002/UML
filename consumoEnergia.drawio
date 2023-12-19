@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T21:27:36.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="yQ0u3hKCRZnXWgVf0ooR" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T14:56:41.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="5txWAsqTkKf2ymXSgAU1" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1406" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -31,107 +31,95 @@
           <mxGeometry y="200" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-13" value="Inventario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1210" y="-400" width="210" height="268" as="geometry">
+          <mxGeometry x="1210" y="-400" width="220" height="296" as="geometry">
             <mxRectangle x="1210" y="-400" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-14" value="# usuario = Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-14" value="# user = User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-36" value="# artefactoList = Artefactos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-36" value="# artefacto_list = Artefacto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-17" value="+ dia = Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="78" width="210" height="26" as="geometry" />
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-18" value="+ nombreArtefacto = String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-20" value="+&amp;nbsp;cantidad_artefacto&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;= int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-19" value="+ horasDeUso = int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="130" width="210" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-20" value="+ cantidadArtefactos = int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="156" width="210" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-21" value="+&amp;nbsp;consumoArtefacto&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;= float&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="182" width="210" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-22" value="+ consumoTotal = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="208" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-21" value="+&amp;nbsp;consumo_artefacto&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= float&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="234" width="210" height="8" as="geometry" />
+          <mxGeometry y="156" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-26" value="+ gestionarInventario(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
-          <mxGeometry y="242" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-26" value="+&amp;nbsp;guardar_inventario_artefacto(request, form):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-13" vertex="1">
+          <mxGeometry y="164" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="x33vfRpOOBDjWHmMuZgI-3" value="+&amp;nbsp;eliminar_artefacto_inventario(request, inventario_id):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BuklExtv01inBHuh72od-13">
+          <mxGeometry y="200" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="x33vfRpOOBDjWHmMuZgI-4" value="+&amp;nbsp;eliminar_inventario(request):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BuklExtv01inBHuh72od-13">
+          <mxGeometry y="236" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="x33vfRpOOBDjWHmMuZgI-5" value="+&amp;nbsp;calcular_consumo_total(consumo_wh, cantidadArtefacto, horasDeUso):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BuklExtv01inBHuh72od-13">
+          <mxGeometry y="260" width="220" height="36" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-32" value="Informe" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="520" y="-310" width="210" height="210" as="geometry">
+          <mxGeometry x="509.5" y="-310" width="235" height="256" as="geometry">
             <mxRectangle x="890" y="-80" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-42" value="+ usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-42" value="+ user: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
+          <mxGeometry y="26" width="235" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-43" value="+ inventario: Inventario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="52" width="210" height="26" as="geometry" />
+          <mxGeometry y="52" width="235" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-45" value="+ dia = Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="78" width="210" height="26" as="geometry" />
+          <mxGeometry y="78" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-46" value="+ consumoTotal = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-46" value="+&amp;nbsp;consumo_total&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;= float&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
+          <mxGeometry y="104" width="235" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-54" value="+ consumoTotalMensual = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="130" width="210" height="26" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-54" value="+&amp;nbsp;consumo_total_mensual&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;= float&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
+          <mxGeometry y="130" width="235" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="156" width="210" height="8" as="geometry" />
+          <mxGeometry y="156" width="235" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-35" value="+ actualizarConsumoDiario(usuario, dia, consumoTotalMensual)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
-          <mxGeometry y="164" width="210" height="46" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-35" value="+actualizar_consumo_diario(usuario, dia,consumo_total_mensual)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-32" vertex="1">
+          <mxGeometry y="164" width="235" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="x33vfRpOOBDjWHmMuZgI-0" value="+calcular_consumo_total_mensual(&lt;br&gt;usuario): consumo_mensual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BuklExtv01inBHuh72od-32">
+          <mxGeometry y="210" width="235" height="46" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-56" value="Calculadora" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" y="40" width="420" height="490" as="geometry" />
+          <mxGeometry x="750" y="40" width="420" height="314" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="BuklExtv01inBHuh72od-56" vertex="1">
           <mxGeometry y="26" width="420" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-59" value="# calcularConsumoTotal(consumoTotalPorArtefacto, cantidadArtefactos, horasDeUso):&amp;nbsp; consumoTotal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="34" width="420" height="36" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-67" value="# calcular_consumo_polinomio(request, dias): consumo" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="34" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-62" value="# calcularConsumoTotalMensual(usuario):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="70" width="420" height="30" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-74" value="# base_proyeccion(consumo, dia):" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="74" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-63" value="# eliminarArtefacto(request, artefacto_id):" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="100" width="420" height="30" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-68" value="# grafico_consumo_actual(request):" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="114" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-64" value="# eliminarDiaEnInventario(request, inventario_id):" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="130" width="420" height="40" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-69" value="# grafico_proyeccion_semanal(request): baseProyeccion(consumo, dias)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="154" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-66" value="# eliminarInventario(request): inventario.html" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="170" width="420" height="40" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-70" value="# grafico_proyeccion_mensual(request): baseProyeccion(consumo, dias)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="194" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-67" value="# calcularConsumoPolinomio(request, dias): consumo" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="210" width="420" height="40" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-73" value="# grafico_artefacto_list_mayor_consumo(request): JsonResponse(grafica)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="234" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-74" value="# baseProyeccion(consumo, dia):" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="250" width="420" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-68" value="# graficoConsumoActual(request): baseProyeccion(consumo, dias)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="290" width="420" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-69" value="# graficoProyeccionSemanal(request): baseProyeccion(consumo, dias)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="330" width="420" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-70" value="# graficoProyeccionMensual(request): baseProyeccion(consumo, dia)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="370" width="420" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-73" value="# graficoArtefactoMasUsado(request): JsonResponse(grafica)" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="410" width="420" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-75" value="# obtenerPolinomio(request): resultado_actual" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
-          <mxGeometry y="450" width="420" height="40" as="geometry" />
+        <mxCell id="BuklExtv01inBHuh72od-75" value="# obtener_polinomio(request): resultado_actual" style="text;whiteSpace=wrap;" parent="BuklExtv01inBHuh72od-56" vertex="1">
+          <mxGeometry y="274" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-76" value="«interface»&lt;br&gt;&lt;b&gt;registro&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="359" y="-726" width="110" height="50" as="geometry" />
@@ -154,12 +142,12 @@
             <mxPoint x="466" y="-767" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-18" target="BuklExtv01inBHuh72od-78" edge="1">
+        <mxCell id="BuklExtv01inBHuh72od-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-20" target="BuklExtv01inBHuh72od-78" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="-720" as="sourcePoint" />
+            <mxPoint x="1420" y="-282.9999999999998" as="sourcePoint" />
             <mxPoint x="476" y="-757" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1570" y="-283" />
+              <mxPoint x="1565" y="-280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -196,25 +184,31 @@
             <mxPoint x="13" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-93" value="Artefactos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1220" y="-770" width="160" height="138" as="geometry">
+        <mxCell id="BuklExtv01inBHuh72od-93" value="Artefacto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1220" y="-770" width="160" height="222" as="geometry">
             <mxRectangle x="1220" y="-770" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-94" value="+ usuario: Usuario" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
+        <mxCell id="BuklExtv01inBHuh72od-94" value="+ user: User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-95" value="+ nombreArtefacto = String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
+        <mxCell id="BuklExtv01inBHuh72od-95" value="+&amp;nbsp;nombre_artefacto&lt;span style=&quot;background-color: initial;&quot;&gt;= String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-96" value="+ consumoKwh = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
+        <mxCell id="BuklExtv01inBHuh72od-96" value="+ consumo_wh = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-97" value="+ horasDeUso = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
+        <mxCell id="BuklExtv01inBHuh72od-97" value="+ horas_de_uso = float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="BuklExtv01inBHuh72od-93" vertex="1">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="BuklExtv01inBHuh72od-93" vertex="1">
           <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="x33vfRpOOBDjWHmMuZgI-6" value="+&amp;nbsp;guardar_artefacto(request, form):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BuklExtv01inBHuh72od-93">
+          <mxGeometry y="138" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="x33vfRpOOBDjWHmMuZgI-7" value="+&amp;nbsp;eliminar_artefacto(request, artefacto_id):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BuklExtv01inBHuh72od-93">
+          <mxGeometry y="180" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-99" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-13" target="BuklExtv01inBHuh72od-93" edge="1">
           <mxGeometry x="-0.84" y="-10" relative="1" as="geometry">
@@ -229,12 +223,12 @@
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-100" value="*&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-99" vertex="1" connectable="0">
           <mxGeometry x="0.4103" relative="1" as="geometry">
-            <mxPoint x="20" y="-57" as="offset" />
+            <mxPoint x="20" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-101" value="artefactoList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-99" vertex="1" connectable="0">
           <mxGeometry x="0.2885" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" y="-51" as="offset" />
+            <mxPoint x="-41" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-102" value="inventario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-99" vertex="1" connectable="0">
@@ -260,9 +254,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-116" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-114" vertex="1" connectable="0">
+        <mxCell id="BuklExtv01inBHuh72od-116" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-114" vertex="1" connectable="0">
           <mxGeometry x="-0.8972" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-117" value="1&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-114" vertex="1" connectable="0">
@@ -270,10 +264,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-118" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.471;entryY=1.066;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-56" target="BuklExtv01inBHuh72od-35" edge="1">
+        <mxCell id="BuklExtv01inBHuh72od-118" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-56" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="740" y="-90" as="sourcePoint" />
-            <mxPoint x="900" y="-90" as="targetPoint" />
+            <mxPoint x="620" y="-50" as="targetPoint" />
             <Array as="points">
               <mxPoint x="619" y="40" />
             </Array>
@@ -294,12 +288,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-122" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.476;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-56" target="BuklExtv01inBHuh72od-26" edge="1">
+        <mxCell id="BuklExtv01inBHuh72od-122" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.473;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-56" target="x33vfRpOOBDjWHmMuZgI-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1100" y="-60" as="sourcePoint" />
-            <mxPoint x="1260" y="-60" as="targetPoint" />
+            <mxPoint x="1300" y="-40" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1310" y="40" />
+              <mxPoint x="1314" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -321,19 +315,19 @@
         <mxCell id="BuklExtv01inBHuh72od-126" value="«interface»&lt;br&gt;&lt;b&gt;proyecciones&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="50" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-127" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-66" target="BuklExtv01inBHuh72od-126" edge="1">
+        <mxCell id="BuklExtv01inBHuh72od-127" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-70" target="BuklExtv01inBHuh72od-126" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="660" y="110" as="sourcePoint" />
+            <mxPoint x="750" y="104" as="sourcePoint" />
             <mxPoint x="820" y="110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="275" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l1FWTxOIdRDqbPMOhEAg-0" value="«interface»&lt;br&gt;&lt;b&gt;gestionarArtefacto&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="l1FWTxOIdRDqbPMOhEAg-0" value="«interface»&lt;br&gt;&lt;b&gt;gestionarArtefacto&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1470" y="-920" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l1FWTxOIdRDqbPMOhEAg-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-93" target="l1FWTxOIdRDqbPMOhEAg-0">
+        <mxCell id="l1FWTxOIdRDqbPMOhEAg-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-93" target="l1FWTxOIdRDqbPMOhEAg-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1430" y="-273" as="sourcePoint" />
             <mxPoint x="1576" y="-400" as="targetPoint" />
