@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-30T18:03:11.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="_gzCiR6KdxSOt2B4R8zl" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T03:12:27.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="M_J_qnDBf8KDn2a84b5L" version="22.1.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1252" dy="2739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="2505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-83" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-7" target="BuklExtv01inBHuh72od-13" edge="1">
-          <mxGeometry x="-0.7345" y="15" relative="1" as="geometry">
+          <mxGeometry x="-0.8204" y="20" relative="1" as="geometry">
             <mxPoint x="710" y="-660" as="sourcePoint" />
             <mxPoint x="1223" y="-281" as="targetPoint" />
             <Array as="points">
@@ -171,7 +171,7 @@
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-86" value="Utiliza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-83" vertex="1" connectable="0">
           <mxGeometry x="0.075" y="-1" relative="1" as="geometry">
-            <mxPoint x="-102" y="-141" as="offset" />
+            <mxPoint x="-102" y="-111" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-107" value="inventario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-83" vertex="1" connectable="0">
@@ -179,7 +179,7 @@
             <mxPoint x="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-108" value="usuairio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-83" vertex="1" connectable="0">
+        <mxCell id="BuklExtv01inBHuh72od-108" value="usuario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-83" vertex="1" connectable="0">
           <mxGeometry x="-0.898" y="-1" relative="1" as="geometry">
             <mxPoint x="13" y="9" as="offset" />
           </mxGeometry>
@@ -226,7 +226,7 @@
             <mxPoint x="20" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-101" value="artefactoList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-99" vertex="1" connectable="0">
+        <mxCell id="BuklExtv01inBHuh72od-101" value="artefacto_list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BuklExtv01inBHuh72od-99" vertex="1" connectable="0">
           <mxGeometry x="0.2885" y="-1" relative="1" as="geometry">
             <mxPoint x="-41" y="-24" as="offset" />
           </mxGeometry>
@@ -236,11 +236,21 @@
             <mxPoint x="-41" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuklExtv01inBHuh72od-109" value="Usa" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.508;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-32" target="BuklExtv01inBHuh72od-11" edge="1">
+        <mxCell id="BuklExtv01inBHuh72od-109" value="Utiliza" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.508;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-32" target="BuklExtv01inBHuh72od-11" edge="1">
           <mxGeometry x="0.0434" y="-43" width="160" relative="1" as="geometry">
             <mxPoint x="740" y="-330" as="sourcePoint" />
             <mxPoint x="900" y="-330" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2n2HVdjCwKDOB978ALC-2" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BuklExtv01inBHuh72od-109">
+          <mxGeometry x="0.5723" y="1" relative="1" as="geometry">
+            <mxPoint x="43" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2n2HVdjCwKDOB978ALC-3" value="1...*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BuklExtv01inBHuh72od-109">
+          <mxGeometry x="-0.6145" y="2" relative="1" as="geometry">
+            <mxPoint x="45" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BuklExtv01inBHuh72od-114" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.002;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.013;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BuklExtv01inBHuh72od-32" target="BuklExtv01inBHuh72od-17" edge="1">
